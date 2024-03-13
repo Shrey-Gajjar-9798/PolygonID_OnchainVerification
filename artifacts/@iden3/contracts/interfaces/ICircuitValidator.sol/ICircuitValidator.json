@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ICircuitValidator",
+  "sourceName": "@iden3/contracts/interfaces/ICircuitValidator.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getSupportedCircuitIds",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "ids",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "name": "inputIndexOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "inputs",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "uint256[2]",
+          "name": "a",
+          "type": "uint256[2]"
+        },
+        {
+          "internalType": "uint256[2][2]",
+          "name": "b",
+          "type": "uint256[2][2]"
+        },
+        {
+          "internalType": "uint256[2]",
+          "name": "c",
+          "type": "uint256[2]"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "verify",
+      "outputs": [],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
